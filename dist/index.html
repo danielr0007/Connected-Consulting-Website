@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="output.css" />
+    <script
+      src="https://kit.fontawesome.com/cd8254595d.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      .custom-shape-divider-bottom-1675091343 {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+        transform: rotate(180deg);
+      }
+
+      .custom-shape-divider-bottom-1675091343 svg {
+        position: relative;
+        display: block;
+        width: calc(100% + 1.3px);
+        height: 110px;
+      }
+
+      .custom-shape-divider-bottom-1675091343 .shape-fill {
+        fill: #ffffff;
+      }
+
+      /* SECOND SHAPE DIVIDER//////////////////////////////////////////////////////////////////////////////////// */
+      .custom-shape-divider-bottom-1675970893 {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        line-height: 0;
+        transform: rotate(180deg);
+      }
+
+      .custom-shape-divider-bottom-1675970893 svg {
+        position: relative;
+        display: block;
+        width: calc(100% + 1.3px);
+        height: 110px;
+      }
+
+      .custom-shape-divider-bottom-1675970893 .shape-fill {
+        fill: #15413f;
+      }
+    </style>
+    <title>Connected Consulting</title>
+  </head>
+  <body class="h-full">
+    <!-- todo/START OF HEADER////////////////////////////////////////////////////////////////////////////////////////////  -->
+    <!-- /////////////////////////////////////////////////////////////
+      //////                  START OF HEADER                     ////
+    ////////////////////////////////////////////////////////////////// -->
+    <header class="overflow-hidden">
+      <nav
+        class="lg:w-9/12 md:w-11/12 md:mx-auto pl-1 md:flex justify-around z-40 overflow-hidden absolute top-0 left-0 right-0"
+      >
+        <ul
+          class="md:mx-0 py-6 md:pl-0 pl-6 md:flex justify-center items-center xl:space-x-16 md:space-x-10 basis-2/6 hidden"
+        >
+          <li class="md:p-0 pb-4 lg:text-base text-sm md:block hidden">
+            <a href="/">Home</a>
+          </li>
+          <li class="md:p-0 pb-4 lg:text-base text-sm md:block hidden">
+            <a href="">About</a>
+          </li>
+          <li class="md:p-0 pb-4 lg:text-base text-sm md:block hidden">
+            <a href="">Services</a>
+          </li>
+        </ul>
+
+        <div
+          class="h-full md:px-0 pl-2 pr-10 basis-2/6 flex md:justify-center justify-between items-center"
+        >
+          <img class="w-[170px] block" src="./images/logo.png" alt="logo" />
+          <span class="md:hidden"
+            ><i
+              class="fa-solid fa-bars text-stone-50 text-3xl"
+              onclick="menu(this)"
+            ></i
+          ></span>
+        </div>
+
+        <ul
+          id="navigation-link"
+          class="md:mx-6 py-6 md:pl-0 pl-6 md:flex justify-center items-center xl:space-x-16 md:space-x-10 basis-2/6 hidden"
+        >
+          <li class="md:p-0 pb-4 lg:text-base text-sm md:hidden">
+            <a href="/">Home</a>
+          </li>
+          <li class="md:p-0 pb-4 lg:text-base text-sm md:hidden">
+            <a href="">About</a>
+          </li>
+          <li class="md:p-0 pb-4 lg:text-base text-sm md:hidden">
+            <a href="">Services</a>
+          </li>
+          <li class="md:p-0 pb-4 lg:text-base text-sm">
+            <a href="">Portfolio</a>
+          </li>
+          <li class="md:p-0 pb-4 lg:text-base text-sm">
+            <a href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- todo/START BANNER/////////////////////////////////////////////////////////////////////////////////////////////  -->
+      <!-- /////////////////////////////////////////////////////////////
+      //////                     START BANNER                     /////
+    ////////////////////////////////////////////////////////////////// -->
+
+      <div
+        style="
+          background: linear-gradient(
+              0deg,
+              rgba(255, 255, 255, 0.85),
+              rgba(255, 255, 255, 0.85)
+            ),
+            url(./images/banner.svg);
+          background-size: cover;
+        "
+        class="h-full md:flex justify-center"
+      >
+        <!-- todo/BANNER CONTENT CONTAINER///////////////////////////////////////////////////////////////////////////////////////  -->
+        <!-- /////////////////////////////////////////////////////////////
+      //////              BANNER CONTENT CONTAINER                  /////
+    ////////////////////////////////////////////////////////////////// -->
+        <div
+          class="md:pt-44 pt-52 md:px-0 sm:px-10 pb-6 px-4 md:flex lg:w-9/12 md:w-11/12 lg:h-full"
+        >
+          <div
+            class="md:px-0 sm:px-10 md:mb-0 mb-4 xl:basis-3/6 lg:basis-5/12 flex flex-col justify-center text-center md:text-left"
+          >
+            <h1 class="xl:text-6xl lg:text-4xl text-3xl font-bold mb-7">
+              Small Business Web Design + Development
+            </h1>
+            <p class="text-md font-semibold md:mb-8 mb-16">
+              No page builders or WordPress - We offer 100% hand-coded websites
+              with superior results starting at $150/mo.
+            </p>
+            <div class="md:px-0 px-4">
+              <a
+                href="#"
+                class="md:mb-0 mb-5 md:mr-2 px-4 py-2 bg-lightgreen hover:bg-hovergrn transition-all ease-in duration-100 md:inline block text-black font-normal shadow-xl"
+                >Learn More</a
+              >
+              <a
+                href="#"
+                class="mx-2 px-4 py-1 border-2 border-grn md:inline block hover:bg-grn hover:text-white transition-all ease-in duration-100"
+                >Get in Touch</a
+              >
+            </div>
+          </div>
+
+          <!-- !IMAGE DIV////////////////////////////////////////// -->
+          <div
+            class="h-full xl:basis-3/6 lg:basis-7/12 flex justify-center items-center"
+          >
+            <img
+              src="./images/responsive-pic.png"
+              alt="banner image of computer and phone"
+              class="xl:w-10/12"
+            />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- todo/SECTION ONE SECTION ONE -WHAT WE DO-//////////////////////////////////////////////////////////////////////////////// -->
+    <!-- /////////////////////////////////////////////////////////////
+      //////            SECTION ONE -WHAT WE DO-                  /////
+    ////////////////////////////////////////////////////////////////// -->
+
+    <section class="md:flex md:text-left text-center">
+      <!-- !LEFT SIDE OF SECTION -WRITTEN CONTENT -->
+      <div
+        class="basis-3/6 flex justify-center items-center bg-grn xl:bg-cyan-500 lg:bg-orange-300 md:bg-pink-600 sm:bg-green-800 xs:bg-indigo-600"
+      >
+        <!-- !LEFT SIDE CONTENT CONTAINER -->
+        <div class="md:px-0 xs:px-8 px-4 py-24 lg:w-4/6 md:w-5/6 mx-auto">
+          <h2
+            class="xl:text-5xl md:text-4xl text-3xl font-semibold text-white pb-6"
+          >
+            WHAT WE DO
+          </h2>
+          <p
+            class="text-white xs:text-base text-sm leading-5 xl:w-5/6 md:pr-5 pb-10"
+          >
+            Our expertise lies in crafting personalized web solutions for small
+            businesses across the US. Utilizing manual coding techniques, we
+            guarantee optimal website performance, resulting in increased
+            customer traffic and revenue for your company.
+          </p>
+          <a
+            class="text-black px-4 py-2 bg-white hover:bg-beige transition-all ease-in duration-100"
+            href="#"
+            >Learn More</a
+          >
+        </div>
+      </div>
+
+      <!-- !RIGHT SIDE OF SECTION -IMAGE CONTENT -->
+      <div
+        class="md:px-0 px-2 md:py-24 basis-3/6 flex md:justify-start justify-center items-center bg-gradient-to-b from-lightbeige to-white"
+      >
+        <img
+          src="./images/team-working.jpg"
+          alt="team working on business project"
+          class="lg:-ml-20 md:-ml-10 -mt-10 border-beige md:border-r-[15px] md:border-b-[0px] border-b-[10px]"
+        />
+      </div>
+    </section>
+
+    <!-- todo/SECTION TWO -3 MAIN BENEFITS-/////////////////////////////////////////////////////////////////////////////////// -->
+    <!-- /////////////////////////////////////////////////////////////
+      //////          SECTION TWO -3 MAIN BENEFITS-              /////
+    ////////////////////////////////////////////////////////////////// -->
+
+    <section class="lg:h-5/6 md:h-4/6 my-14 flex justify-center items-center">
+      <!-- !WRAPPER FOR EVERYTHING IN SECTION -->
+      <div class="h-5/6 mt-14 mb-10">
+        <!-- !TITLE///////////////////////////////////////////////////////////////////////////////////////// -->
+        <h2
+          class="text-center lg:text-5xl md:text-4xl text-3xl lg:font-normal font-semibold"
+        >
+          Hyper-optimized Website
+        </h2>
+
+        <!-- !IMAGE////////////////////////////////////////////////////////////////////////////////////////// -->
+        <div class="w-3/6 mx-auto my-4 flex justify-center items-center">
+          <img
+            class="w-[320px] mx-auto opacity-80"
+            src="./images/phone-deco-icon.png"
+            alt=""
+            loading="lazy"
+          />
+        </div>
+
+        <!-- !THREE BENEFITS CARDS CONTAINER//////////////////////////////////////////////////////////////// -->
+        <!-- !-----------------//////////////////////---------------------/////////////////////////--------- -->
+        <div
+          class="xl:px-44 lg:px-8 lg:pt-10 md:py-0 py-16 mx-auto md:flex flex-row"
+        >
+          <!-- !Benefit 1 -->
+          <div
+            class="lg:px-6 md:px-2 lg:py-14 md:py-10 py-16 xs:px-9 px-5 flex flex-col basis-4/12 justify-center items-center gap-y-4 bg-lightbeige"
+          >
+            <img
+              class="xl:w-[105px] lg:w-[100px] w-[90px] lg:p-2 lg:mb-3 md:mb-6 mb-10 border-4 border-lightgreen"
+              src="./images/responsive-icon.png"
+              alt=""
+              loading="lazy"
+            />
+            <h4
+              class="text-center md:text-2xl text-xl md:font-normal font-semibold"
+            >
+              Fully Responsive
+            </h4>
+            <p class="text-center">
+              Your website will fit all mobile screens sizes, tablets, and
+              desktop sizes so new clients can access your site from anywhere.
+            </p>
+          </div>
+          <!-- !Benefit 2 -->
+          <div
+            style="
+              background: linear-gradient(
+                  0deg,
+                  rgba(21, 65, 63, 0.8),
+                  rgb(152, 187, 164, 0.9)
+                ),
+                url(./images/mobile-device-use.jpg);
+              background-size: cover;
+            "
+            class="lg:px-6 md:px-2 lg:py-14 md:py-10 py-16 xs:px-9 px-5 flex flex-col basis-4/12 justify-center items-center gap-y-4"
+          >
+            <img
+              class="xl:w-[105px] lg:w-[100px] w-[90px] lg:p-2 lg:mb-3 md:mb-6 mb-10 border-4 border-lightgreen"
+              src="./images/mobile-first-icon.png"
+              alt=""
+              loading="lazy"
+            />
+            <h4
+              class="text-center text-white md:text-2xl text-xl md:font-normal font-semibold"
+            >
+              Mobile-First Design
+            </h4>
+            <p class="text-center text-white">
+              We start building your site for mobile devices first, then we add
+              on to it to make tablet and desktop.
+            </p>
+          </div>
+          <!-- !Benefit 3 -->
+          <div
+            class="lg:px-6 md:px-2 lg:py-14 md:py-10 py-16 xs:px-9 px-5 flex flex-col basis-4/12 justify-center items-center gap-y-4 bg-lightbeige"
+          >
+            <img
+              class="xl:w-[105px] lg:w-[100px] w-[90px] lg:p-2 lg:mb-3 md:mb-6 mb-10 border-4 border-lightgreen"
+              s
+              src="./images/seo-icon.png"
+              alt=""
+              loading="lazy"
+            />
+            <h4
+              class="text-center md:text-2xl text-xl md:font-normal font-semibold"
+            >
+              Optimization
+            </h4>
+            <p class="text-center">
+              60% of all internet traffic is on mobile devices, so we optimize
+              your mobile to perform their best in search engines.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- todo/ SECTION THREE -OUR OFFER-///////////////////////////////////////////////////////////////////////////////////// -->
+    <!-- /////////////////////////////////////////////////////////////
+      //////          SECTION THREE -OUR OFFER-              /////
+    ////////////////////////////////////////////////////////////////// -->
+    <section
+      class="relative lg:py-24 pt-20 bg-rose-700 bg-lightbeige flex lg:flex-row flex-col items-center"
+    >
+      <!-- !Left side of section holding image//////////////////////////////////////////////////////////////// -->
+      <div
+        class="pb-20 lg:pb-0 xl:basis-3/6 lg:basis-5/12 lg:order-none order-2"
+      >
+        <img
+          class="xl:w-7/12 lg:w-9/12 mx-auto xl:mr-24 lg:mr-2 lg:mt-0 mt-12 relative z-20"
+          src="./images/seo-and-web-dev-pic.png"
+          alt=""
+          srcset=""
+          loading="lazy"
+        />
+      </div>
+
+      <!-- !Right side of section holding text content//////////////////////////////////////////////////////////////// -->
+      <div
+        class="lg:px-16 md:px-20 sm:px-10 xs:px-6 xxs:px-3 lg:pr-8 xl:basis-3/6 lg:basis-7/12 lg:order-none order-1"
+      >
+        <p class="text-md font-bold mb-2 text-grn">We offer</p>
+        <h2 class="xl:text-5xl lg:text-4xl text-3xl text-grn font-bold mb-7">
+          $0 Down, $150 Per Month, No Minimum Contract
+        </h2>
+        <p class="xl:w-5/6 mb-8 text-grn">
+          $0 down for a standard 5 page small business website. If you need more
+          than that then we have to do custom pricing based on the scope of
+          work, number of additional pages, and time involved. <br /><br />
+          You own your domain, content, listing, and profiles. Cancel anytime
+          with no fees or hassle.
+        </p>
+
+        <!-- !bullets//////////////////////////////////////////////////////////////////////////////////////// -->
+        <div class="md:flex gap-6">
+          <div class="">
+            <p class="font-bold pb-1 text-black">Hosting Fees Included</p>
+            <p class="w-5/6 pb-6 text-grn">
+              Hosting fees are built right into the monthly payment.
+            </p>
+            <p class="font-bold pb-1">24/7 Customer Service</p>
+            <p class="w-5/6 pb-6">
+              Call direct anytime day or night, no phone trees or automated
+              responses.
+            </p>
+            <p class="font-bold pb-1">Citations And Listings</p>
+            <p class="w-5/6 pb-6">
+              It's important to have your website linked from other websites,
+              like directories.
+            </p>
+          </div>
+
+          <div class="">
+            <p class="font-bold pb-1 text-black">Unlimited Edits</p>
+            <p class="w-5/6 pb-6 text-grn">
+              Change anything you want at anytime and it will be done that day.
+            </p>
+            <p class="font-bold pb-1">Web Design & Development</p>
+            <p class="w-5/6 pb-6">
+              Includes over 40 hours of design, development, and testing.
+            </p>
+            <p class="font-bold pb-1">Google Analytics</p>
+            <p class="w-5/6 pb-6">
+              We install Analytics for free to monitor traffic and where it
+              comes from.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- ! SHAPE DIVIDER DIV FOR LG SCREENS AND ABOVE////////////////////////////////////////////////////////////// -->
+      <div class="custom-shape-divider-bottom-1675091343 hidden lg:block">
+        <svg
+          data-name="Layer 1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1200 120"
+          preserveAspectRatio="none"
+        >
+          <path
+            d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z"
+            opacity=".25"
+            class="shape-fill"
+          ></path>
+          <path
+            d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z"
+            opacity=".5"
+            class="shape-fill"
+          ></path>
+          <path
+            d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z"
+            class="shape-fill"
+          ></path>
+        </svg>
+      </div>
+    </section>
+
+    <!-- ! WHITE DECORATION DIV FOR MD SCREENS AND BELOW/////////////////////////////////////////////////////////////////// -->
+    <div
+      class="lg:hidden block xs:-mt-64 -mt-60 w-full h-64 bg-white z-10 relative"
+    ></div>
+
+    <!-- todo/SECTION FOUR -PORTFOLIO-/////////////////////////////////////////////////////////////////////////////////// -->
+    <!-- /////////////////////////////////////////////////////////////
+      //////          SECTION FOUR -PORTFOLIO-              /////
+    ////////////////////////////////////////////////////////////////// -->
+
+    <section class="lg:py-24 py-4">
+      <!-- !TITLE///////////////////////////////////////////////////////////////////////////////////////// -->
+      <h2
+        class="text-center lg:text-5xl md:text-4xl text-3xl lg:font-normal font-semibold"
+      >
+        Our Portfolio
+      </h2>
+
+      <!-- !IMAGE////////////////////////////////////////////////////////////////////////////////////////// -->
+      <div class="w-3/6 mx-auto my-4 flex justify-center items-center">
+        <img
+          class="w-[320px] mx-auto"
+          src="./images/desktop-deco-icon.png"
+          alt=""
+          loading="lazy"
+        />
+      </div>
+
+      <!-- !PAST WORK DIV - HOLDS 3 EXAMPLES//////////////////////////////////////////////////////////////////// -->
+      <div
+        class="xl:w-[1200px] lg:w-[970px] mx-auto lg:px-0 md:px-28 px-5 lg:flex gap-12"
+      >
+        <!-- !WEBSITE EXAMPLE 1///////////////////////////////////////////////////////////////// -->
+        <!-- ///////////////////////////////////////////////////////////////////////////////////// -->
+        <div
+          style="box-shadow: 1px 6px 10px 8px rgb(231, 231, 231)"
+          class="lg:w-2/6 py-10 lg:mb-0 lg:mt-0 mt-10 mb-20 border-b-8 border-grn rounded"
+        >
+          <!-- !IMAGE -->
+          <img
+            class="mx-auto lg:w-8/12 md:w-6/12 w-7/12 py-12"
+            src="./images/site-one.png"
+            alt=""
+            loading="lazy"
+          />
+
+          <!-- !TITLE & DESCRIP CONTAINER -->
+          <div class="w-11/12 mx-auto">
+            <!-- !TITLE -->
+            <div class="pb-6">
+              <h4 class="lg:text-2xl text-xl md:font-normal font-semibold">
+                Valley Construction
+              </h4>
+              <p class="text-gray-500">Seattle, WA</p>
+            </div>
+
+            <!-- !DESCRIP -->
+            <p class="text-lg mb-20 text-gray-700">
+              Valley Construction Supply is the largest privately held
+              construction supply company in Seattle, WA for over 35 years.
+            </p>
+
+            <!-- !BUTTON -->
+            <a class="px-10 py-3 bg-lightgreen" href="">Button</a>
+          </div>
+        </div>
+
+        <!-- !WEBSITE EXAMPLE 2///////////////////////////////////////////////////////////////// -->
+        <!-- ///////////////////////////////////////////////////////////////////////////////////// -->
+        <div
+          style="box-shadow: 1px 6px 10px 8px rgb(231, 231, 231)"
+          class="lg:w-2/6 py-10 lg:mb-0 mb-20 border-b-8 shadow-xl border-grn rounded"
+        >
+          <!-- !IMAGE -->
+          <img
+            class="mx-auto lg:w-8/12 md:w-6/12 w-7/12 py-12"
+            src="./images/site-two.png"
+            alt=""
+            loading="lazy"
+          />
+
+          <!-- !TITLE & DESCRIP CONTAINER -->
+          <div class="w-11/12 mx-auto">
+            <!-- !TITLE -->
+            <div class="pb-6">
+              <h4 class="lg:text-2xl text-xl md:font-normal font-semibold">
+                Valley Construction
+              </h4>
+              <p class="text-gray-500">Seattle, WA</p>
+            </div>
+
+            <!-- !DESCRIP -->
+            <p class="text-lg mb-20 text-gray-700">
+              Valley Construction Supply is the largest privately held
+              construction supply company in Seattle, WA for over 35 years.
+            </p>
+
+            <!-- !BUTTON -->
+            <a class="px-10 py-3 bg-lightgreen" href="">Button</a>
+          </div>
+        </div>
+
+        <!-- !WEBSITE EXAMPLE 3///////////////////////////////////////////////////////////////// -->
+        <!-- ///////////////////////////////////////////////////////////////////////////////////// -->
+        <div
+          style="box-shadow: 1px 6px 10px 8px rgb(231, 231, 231)"
+          class="lg:w-2/6 py-10 lg:mb-0 mb-20 border-b-8 shadow-xl border-grn rounded"
+        >
+          <!-- !IMAGE -->
+          <img
+            class="mx-auto lg:w-8/12 md:w-6/12 w-7/12 py-12"
+            src="./images/site-three.png"
+            alt=""
+            loading="lazy"
+          />
+
+          <!-- !TITLE & DESCRIP CONTAINER -->
+          <div class="w-11/12 mx-auto">
+            <!-- !TITLE -->
+            <div class="pb-6">
+              <h4 class="lg:text-2xl text-xl md:font-normal font-semibold">
+                Valley Construction
+              </h4>
+              <p class="text-gray-500">Seattle, WA</p>
+            </div>
+
+            <!-- !DESCRIP -->
+            <p class="text-lg mb-20 text-gray-700">
+              Valley Construction Supply is the largest privately held
+              construction supply company in Seattle, WA for over 35 years.
+            </p>
+
+            <!-- !BUTTON -->
+            <a class="px-10 py-3 bg-lightgreen" href="">Button</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- todo/SECTION FIVE -ABOUT US-///////////////////////////////////////////////////////////////////////////////// -->
+    <!-- /////////////////////////////////////////////////////////////
+      //////          SECTION FIVE -ABOUT US-             /////
+    ////////////////////////////////////////////////////////////////// -->
+    <section class="lg:py-24 py-10 relative">
+      <!-- !TITLE -->
+      <h2
+        class="text-center lg:text-5xl md:text-4xl text-3xl lg:font-normal font-semibold"
+      >
+        Who Are We
+      </h2>
+
+      <!-- !IMAGE -->
+      <div class="w-3/6 mx-auto my-4 flex justify-center items-center">
+        <img
+          class="w-[320px] mx-auto"
+          src="./images/person-deco-icon.png"
+          alt=""
+          loading="lazy"
+        />
+      </div>
+
+      <!-- ! DESCRIPTION -->
+      <p
+        class="mb-16 xl:w-6/12 lg:w-3/6 sm:w-5/6 w-11/12 mx-auto text-center text-lg"
+      >
+        My name is Ryan, I am a stay at home dad and web developer. I started
+        this business to help provide for the family while still being able to
+        be home and raise the kids. I spent a year and a half teaching myself
+        the right way to make websites and learning to write the code myself.
+        LEARN MORE
+      </p>
+
+      <!-- !IMAGE -->
+      <img
+        class="mx-auto"
+        src="./images/team-working.jpg"
+        alt=""
+        loading="lazy"
+      />
+
+      <!-- !SHAPE DIVIDER HIDDEN ON MOBILE -->
+      <div class="custom-shape-divider-bottom-1675970893">
+        <svg
+          data-name="Layer 1"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 1200 120"
+          preserveAspectRatio="none"
+        >
+          <path d="M1200 0L0 0 598.97 114.72 1200 0z" class="shape-fill"></path>
+        </svg>
+      </div>
+    </section>
+
+    <!-- todo/SECTION SIX -PACKAGES/PRICING-///////////////////////////////////////////////////////////////////// -->
+    <!-- /////////////////////////////////////////////////////////////
+      //////          SECTION SIX -PACKAGES/PRICING             /////
+    ////////////////////////////////////////////////////////////////// -->
+    <section class="pt-10 xl:px-36 lg:px-11 px-4 bg-grn h-[400px]">
+      <h2
+        class="lg:pb-16 md:pt-16 pt-4 pb-20 text-center text-white lg:text-5xl md:text-4xl text-3xl lg:font-normal font-semibold"
+      >
+        Packages
+      </h2>
+
+      <!-- !PRICING PACKAGES CONTAINER -->
+      <div
+        style="box-shadow: 0px 4px 12px 5px rgb(173, 173, 173)"
+        class="mx-auto center xl:w-[1200px] p-4 bg-white md:grid grid-cols-2 xl:gap-8 lg:gap-6 md:gap-4 relative z-40 rounded-xl"
+      >
+        <!-- !INDI PRICING COLUMN 1 -->
+        <div
+          class="md:p-0 pb-6 mb-10 h-full bg-gradient-to-b from-lightbeige to-white rounded-xl"
+        >
+          <div class="p-4 mb-6 bg-slate-300 rounded-t-xl">
+            <h4 class="text-center font-bold">STANDARD</h4>
+          </div>
+
+          <p class="p-5 text-sm text-center">STARTING AS LOW AS</p>
+
+          <h5 class="pb-8 text-center text-4xl font-semibold">$150/mo</h5>
+
+          <ul class="py-4 px-8 mb-4">
+            <li class="py-1">
+              <i class="fa-solid fa-circle-check text-grn pr-4"></i>Unlimited
+              Edits
+            </li>
+            <li class="py-1">
+              <i class="fa-solid fa-circle-check text-grn pr-4"></i>Includes
+              Hosting
+            </li>
+            <li class="py-1">
+              <i class="fa-solid fa-circle-check text-grn pr-4"></i>24/7
+              Customer Service
+            </li>
+            <li class="py-1">
+              <i class="fa-solid fa-circle-check text-grn pr-4"></i>Lifetime
+              Updates
+            </li>
+          </ul>
+
+          <a
+            class="px-14 py-3 mx-6 bg-lightgreen block text-center text-sm"
+            href=""
+            >Contact Us</a
+          >
+        </div>
+
+        <!-- !INDI PRICING COLUMN 2 -->
+        <div
+          class="md:pb-0 pb-6 px-3 mb-10 h-full bg-gradient-to-b from-lightgreen/50 to-white rounded-xl"
+        >
+          <div class="p-4 mb-6 bg-slate-300 rounded-t-xl">
+            <h4 class="text-center font-bold">STANDARD + LOGO</h4>
+          </div>
+
+          <p class="p-5 text-sm text-center">STARTING AS LOW AS</p>
+
+          <h5 class="pb-8 text-center text-4xl font-semibold">
+            $150/mo + $100 one time
+          </h5>
+
+          <ul class="py-4 px-8 mb-4">
+            <li class="py-1">
+              <i class="fa-solid fa-circle-check text-grn pr-4"></i>2 revisions
+            </li>
+            <li class="py-1">
+              <i class="fa-solid fa-circle-check text-grn pr-4"></i>All File
+              Formats
+            </li>
+            <li class="py-1">
+              <i class="fa-solid fa-circle-check text-grn pr-4"></i>Ready to use
+            </li>
+            <li class="py-1">
+              <i class="fa-solid fa-circle-check text-grn pr-4"></i>$150 Per
+              Extra Post
+            </li>
+          </ul>
+
+          <a
+            class="px-14 py-3 mx-6 bg-lightgreen block text-center text-sm"
+            href=""
+            >Contact Us</a
+          >
+        </div>
+      </div>
+    </section>
+    <div class="md:h-[500px] h-[1100px]"></div>
+
+    <!-- todo/FOOTER //////////////////////////////////////////////////////////////////////////////////// -->
+    <!-- /////////////////////////////////////////////////////////////
+      //////                     FOOTER                         /////
+    ////////////////////////////////////////////////////////////////// -->
+
+    <footer class="h-[580px] bg-beige">
+      <!-- !LINKS CONTAINER -->
+      <div class="pt-16 pb-6 flex justify-center">
+        <ul class="mx-auto">
+          <li class="md:pb-5 pb-3 text-center">Home</li>
+          <li class="md:pb-5 pb-3 text-center">About</li>
+          <li class="md:pb-5 pb-3 text-center">Services</li>
+          <li class="md:pb-5 pb-3 text-center">Portfolio</li>
+          <li class="md:pb-5 pb-3 text-center">Contact</li>
+        </ul>
+      </div>
+
+      <!-- !SOCIAL MEDIA -->
+      <div class="bg-red-200 h-1/6 flex justify-center items-center space-x-5">
+        <i
+          class="fa-brands fa-facebook-f text-2xl py-3 px-4 border-2 border-zinc-300"
+        ></i>
+        <i
+          class="fa-brands fa-instagram text-2xl py-3 px-4 border-2 border-zinc-300"
+        ></i>
+        <i
+          class="fa-brands fa-tiktok text-2xl py-3 px-4 border-2 border-zinc-300"
+        ></i>
+      </div>
+
+      <!-- !FOOTER TEXT -->
+      <p class="pt-10 pb-2 text-center text-sm">Site by Daniel Rasch</p>
+      <p class="text-center text-sm">Copyright Connected Consulting 2023</p>
+    </footer>
+
+    <!-- todo JAVASCRIPT FUNCTIONALITY////////////////////////////////////////////////////////////////////////////////// -->
+    <script>
+      function menu(e) {
+        const mobileLinks = document.querySelector("#navigation-link");
+        const classToAddWhenClicked = "fa-xmark";
+
+        mobileLinks.classList.toggle("hidden");
+
+        if (e.classList.contains("fa-bars")) {
+          e.classList.remove("fa-bars");
+          e.classList.add(classToAddWhenClicked);
+        } else {
+          e.classList.remove(classToAddWhenClicked);
+          e.classList.add("fa-bars");
+        }
+      }
+    </script>
+  </body>
+</html>

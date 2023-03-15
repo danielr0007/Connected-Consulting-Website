@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="output.css" />
+    <script
+      src="https://kit.fontawesome.com/cd8254595d.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Contact Us</title>
+  </head>
+
+  <body class="h-full">
+    <!-- todo/START OF HEADER////////////////////////////////////////////////////////////////////////////////////////////  -->
+    <!-- /////////////////////////////////////////////////////////////
+          //////                  START OF HEADER                     ////
+        ////////////////////////////////////////////////////////////////// -->
+    <header class="overflow-hidden">
+      <nav
+        class="lg:w-9/12 md:w-11/12 md:mx-auto pl-1 md:flex justify-around z-40 overflow-hidden absolute top-0 left-0 right-0"
+      >
+        <ul
+          class="md:mx-0 py-6 md:pl-0 pl-6 md:flex justify-center items-center xl:space-x-16 md:space-x-10 basis-2/6 hidden"
+        >
+          <li class="md:p-0 pb-4 lg:text-base text-sm">
+            <a href="index.html">Home</a>
+          </li>
+          <li class="md:p-0 pb-4 lg:text-base text-sm">About</li>
+          <li class="md:p-0 pb-4 lg:text-base text-sm">Services</li>
+        </ul>
+
+        <div
+          class="h-full md:px-0 pl-2 pr-10 basis-2/6 flex md:justify-center justify-between items-center"
+        >
+          <img
+            class="w-[170px] block"
+            src="./images/logo.png"
+            alt=""
+            srcset=""
+          />
+          <span class="md:hidden"
+            ><i
+              class="fa-solid fa-bars text-stone-50 text-3xl"
+              onclick="menu(this)"
+            ></i
+          ></span>
+        </div>
+
+        <ul
+          id="navigation-link"
+          class="md:mx-6 py-6 md:pl-0 pl-6 md:flex justify-center items-center xl:space-x-16 md:space-x-10 basis-2/6 hidden"
+        >
+          <li class="md:p-0 pb-4 lg:text-base text-sm">Portfolio</li>
+          <li class="md:p-0 pb-4 lg:text-base text-sm">
+            <a href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- todo/START BANNER/////////////////////////////////////////////////////////////////////////////////////////////  -->
+    <!-- /////////////////////////////////////////////////////////////
+      //////                     START BANNER                     /////
+    ////////////////////////////////////////////////////////////////// -->
+
+    <section
+      style="
+        background: linear-gradient(
+            0deg,
+            rgba(255, 255, 255, 0.85),
+            rgba(255, 255, 255, 0.85)
+          ),
+          url(./images/contact-banner.svg);
+        background-size: cover;
+        background-position: top;
+      "
+      class="py-20 md:flex justify-center"
+    >
+      <!-- todo/BANNER ///////////////////////////////////////////////////////////////////////////////////////  -->
+      <!-- /////////////////////////////////////////////////////////////
+  //////                        BANNER                 /////
+////////////////////////////////////////////////////////////////// -->
+      <div
+        class="md:pt-44 pt-52 md:px-0 sm:px-10 pb-6 px-4 md:flex justify-center xl:w-9/12 md:w-11/12"
+      >
+        <div
+          class="md:px-0 sm:px-10 md:mb-0 mb-4 xl:basis-3/6 lg:basis-5/12 flex flex-col justify-center text-center md:text-left"
+        >
+          <h1
+            class="xl:text-5xl lg:text-4xl text-3xl font-bold mb-7 text-center"
+          >
+            Contact Us
+          </h1>
+          <p
+            class="lg:w-full md:w-5/6 mx-auto text-md font-semibold md:mb-8 mb-16 text-center"
+          >
+            No page builders or WordPress - We offer 100% hand-coded websites
+            with superior results starting at $150/mo.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- todo/CONTACT FORM SECTION ///////////////////////////////////////////////////////////////////////////////////////  -->
+    <!-- /////////////////////////////////////////////////////////////
+  //////                   CONTACT FORM SECTION                 /////
+////////////////////////////////////////////////////////////////// -->
+
+    <section class="pb-16">
+      <!-- !Contact form container -->
+      <div
+        class="xl:w-8/12 lg:w-10/12 md:w-11/12 w-full mx-auto lg:px-10 md:px-6 px-3 -mt-[80px] py-16 md:flex gap-11 bg-lightbeige"
+      >
+        <!-- !left side - text side -->
+        <div class="p-5 lg:basis-3/6 basis-5/12">
+          <h2
+            class="md:pb-5 pb-7 xl:text-5xl lg:text-4xl md:text-3xl text-4xl md:font-normal font-semibold"
+          >
+            Contact Us
+          </h2>
+          <p class="xl:pr-10 md:pr-4 pb-16">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            Consequatur soluta ab ullam.
+          </p>
+
+          <!-- !address and phone container -->
+          <div class="xl:flex gap-5 mb-10">
+            <div class="xl:pb-0 md:pb-10 pb-16 basis-3/6">
+              <i
+                class="pb-2 fa-solid fa-location-dot text-lightgreen text-4xl"
+              ></i>
+              <h4 class="pb-2 text-lg font-semibold">Address</h4>
+              <p>
+                7831 becchfern circle, <br />
+                Tamarac, Fl, 33321
+              </p>
+            </div>
+            <div class="basis-3/6 md:pb-0 pb-8">
+              <i
+                class="pb-2 fa-solid fa-phone-volume text-lightgreen text-4xl"
+              ></i>
+              <h4 class="pb-2 text-lg font-semibold">Phone Number</h4>
+              <p class="text-lg">954-231-7352</p>
+            </div>
+          </div>
+
+          <!-- !email container -->
+          <div class="flex">
+            <div class="basis-3/6">
+              <i class="pb-2 fa-solid fa-envelope text-lightgreen text-4xl"></i>
+              <h4 class="pb-2 text-lg font-semibold">Email</h4>
+              <p class="text-lg">connected@cc.com</p>
+            </div>
+            <div class="basis-3/6"></div>
+          </div>
+        </div>
+
+        <!-- !right side -  form side///////////////////////////////////////////////////////////////////////// -->
+        <div class="md:mt-0 mt-20 lg:basis-3/6 basis-7/12 bg-grn">
+          <!-- !Form container -->
+          <div class="lg:p-11 md:p-7 p-9">
+            <h4
+              class="md:pb-5 pb-7 text-center xl:text-5xl lg:text-4xl text-3xl text-white"
+            >
+              Drop us a line
+            </h4>
+            <p class="md:pb-5 pb-7 text-white text-center">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi
+              inventore earum illo.
+            </p>
+            <form class="p-3" action="">
+              <input
+                class="w-full block py-2 mb-3 bg-transparent border-b-2 border-y-lightbeige outline-none placeholder:text-hovergrn/90 text-white"
+                type="text"
+                placeholder="First Name"
+              />
+              <input
+                class="w-full block py-2 mb-3 bg-transparent border-b-2 border-y-lightbeige outline-none placeholder:text-hovergrn/90 text-white"
+                type="text"
+                placeholder="Business"
+              />
+              <input
+                class="w-full block py-2 mb-3 bg-transparent border-b-2 border-y-lightbeige outline-none placeholder:text-hovergrn/90 text-white"
+                type="text"
+                placeholder="Email"
+              />
+              <input
+                class="w-full block py-2 mb-6 bg-transparent border-b-2 border-y-lightbeige outline-none placeholder:text-hovergrn/90 text-white"
+                type="text"
+                placeholder="Phone Number"
+              />
+              <textarea
+                class="w-full h-full mb-8 bg-transparent border-b-4 border-y-lightbeige outline-none placeholder:text-hovergrn/90 text-white"
+                name=""
+                id=""
+                rows="6"
+                placeholder="Type your message here..."
+              ></textarea>
+              <button
+                class="px-20 py-3 bg-beige md:mx-0 md:mt-0 mt-4 mx-auto block"
+                type="submit"
+              >
+                Submit
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
