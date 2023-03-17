@@ -29,7 +29,9 @@
             <a href="index.html">Home</a>
           </li>
           <li class="md:p-0 pb-4 lg:text-base text-sm">About</li>
-          <li class="md:p-0 pb-4 lg:text-base text-sm">Services</li>
+          <li class="md:p-0 pb-4 lg:text-base text-sm">
+            <a href="services.html">Services</a>
+          </li>
         </ul>
 
         <div
@@ -44,11 +46,23 @@
           ></span>
         </div>
 
+        <!-- ! MOBILE MENU>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
         <ul
           id="navigation-link"
-          class="md:mx-6 py-6 md:pl-0 pl-6 md:flex justify-center items-center xl:space-x-16 md:space-x-10 basis-2/6 hidden"
+          class="md:mx-6 py-6 md:pl-0 pl-6 md:flex justify-center items-center xl:space-x-16 md:space-x-10 basis-2/6 md:bg-transparent bg-white hidden"
         >
-          <li class="md:p-0 pb-4 lg:text-base text-sm">Portfolio</li>
+          <li class="md:p-0 pb-4 lg:text-base text-sm md:hidden">
+            <a href="index.html">Home</a>
+          </li>
+          <li class="md:p-0 pb-4 lg:text-base text-sm md:hidden">
+            <a href="">About</a>
+          </li>
+          <li class="md:p-0 pb-4 lg:text-base text-sm md:hidden">
+            <a href="services.html">Services</a>
+          </li>
+          <li class="md:p-0 pb-4 lg:text-base text-sm">
+            <a href="index.html#portfolio">Portfolio</a>
+          </li>
           <li class="md:p-0 pb-4 lg:text-base text-sm">
             <a href="contact.html">Contact</a>
           </li>
@@ -415,5 +429,23 @@
       <p class="pt-10 pb-2 text-center text-sm">Site by Daniel Rasch</p>
       <p class="text-center text-sm">Copyright Connected Consulting 2023</p>
     </footer>
+
+    <!-- todo JAVASCRIPT FUNCTIONALITY////////////////////////////////////////////////////////////////////////////////// -->
+    <script>
+      function menu(e) {
+        const mobileLinks = document.querySelector("#navigation-link");
+        const classToAddWhenClicked = "fa-xmark";
+
+        mobileLinks.classList.toggle("hidden");
+
+        if (e.classList.contains("fa-bars")) {
+          e.classList.remove("fa-bars");
+          e.classList.add(classToAddWhenClicked);
+        } else {
+          e.classList.remove(classToAddWhenClicked);
+          e.classList.add("fa-bars");
+        }
+      }
+    </script>
   </body>
 </html>
