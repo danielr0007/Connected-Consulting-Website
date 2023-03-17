@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en" class="h-full">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="output.css" />
+    <script
+      src="https://kit.fontawesome.com/cd8254595d.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>About Us</title>
+  </head>
+
+  <body class="h-full">
+    <!-- todo/START OF HEADER////////////////////////////////////////////////////////////////////////////////////////////  -->
+    <!-- /////////////////////////////////////////////////////////////
+          //////                  START OF HEADER                     ////
+        ////////////////////////////////////////////////////////////////// -->
+    <header class="overflow-hidden">
+      <nav
+        class="lg:w-9/12 md:w-11/12 md:mx-auto pl-1 md:flex justify-around z-40 overflow-hidden absolute top-0 left-0 right-0"
+      >
+        <ul
+          class="md:mx-0 py-6 md:pl-0 pl-6 md:flex justify-center items-center xl:space-x-16 md:space-x-10 basis-2/6 hidden"
+        >
+          <li class="md:p-0 pb-4 lg:text-base text-sm">
+            <a href="index.html">Home</a>
+          </li>
+          <li class="md:p-0 pb-4 lg:text-base text-sm">
+            <a href="about.html">About</a>
+          </li>
+          <li class="md:p-0 pb-4 lg:text-base text-sm">
+            <a href="services.html">Services</a>
+          </li>
+        </ul>
+
+        <div
+          class="h-full md:px-0 pl-2 pr-10 basis-2/6 flex md:justify-center justify-between items-center"
+        >
+          <img class="w-[170px] block" src="./images/logo.png" alt="logo" />
+          <span class="md:hidden"
+            ><i
+              class="fa-solid fa-bars text-stone-50 text-3xl"
+              onclick="menu(this)"
+            ></i
+          ></span>
+        </div>
+
+        <!-- ! MOBILE MENU>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
+        <ul
+          id="navigation-link"
+          class="md:mx-6 py-6 md:pl-0 pl-6 md:flex justify-center items-center xl:space-x-16 md:space-x-10 basis-2/6 md:bg-transparent bg-white hidden"
+        >
+          <li class="md:p-0 pb-4 lg:text-base text-sm md:hidden">
+            <a href="index.html">Home</a>
+          </li>
+          <li class="md:p-0 pb-4 lg:text-base text-sm md:hidden">
+            <a href="about.html">About</a>
+          </li>
+          <li class="md:p-0 pb-4 lg:text-base text-sm md:hidden">
+            <a href="services.html">Services</a>
+          </li>
+          <li class="md:p-0 pb-4 lg:text-base text-sm">
+            <a href="index.html#portfolio">Portfolio</a>
+          </li>
+          <li class="md:p-0 pb-4 lg:text-base text-sm">
+            <a href="contact.html">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- todo/START BANNER/////////////////////////////////////////////////////////////////////////////////////////////  -->
+    <!-- /////////////////////////////////////////////////////////////
+            //////                     START BANNER                     /////
+          ////////////////////////////////////////////////////////////////// -->
+    <section
+      style="
+        background: linear-gradient(
+            0deg,
+            rgba(255, 255, 255, 0.85),
+            rgba(255, 255, 255, 0.85)
+          ),
+          url(./images/contact-banner.svg);
+        background-size: cover;
+        background-position: top;
+      "
+      class="py-20 md:flex justify-center"
+    >
+      <!-- todo/BANNER ///////////////////////////////////////////////////////////////////////////////////////  -->
+      <!-- /////////////////////////////////////////////////////////////
+  //////                        BANNER                 /////
+////////////////////////////////////////////////////////////////// -->
+      <div
+        class="md:pt-44 pt-52 md:px-0 sm:px-10 pb-6 px-4 md:flex justify-center xl:w-9/12 md:w-11/12"
+      >
+        <div
+          class="md:px-0 sm:px-10 md:mb-0 mb-4 xl:basis-3/6 lg:basis-5/12 flex flex-col justify-center text-center md:text-left"
+        >
+          <h1
+            class="xl:text-5xl lg:text-4xl text-3xl font-bold mb-7 text-center"
+          >
+            About Us
+          </h1>
+        </div>
+      </div>
+    </section>
+
+    <!-- todo/SECTION 1 Development Done Differently ///////////////////////////////////////////////////////////////////////////////////////  -->
+    <!-- /////////////////////////////////////////////////////////////
+  //////        SECTION 1 ABOUT STORY                         /////
+////////////////////////////////////////////////////////////////// -->
+
+    <section class="w-full">
+      <div id="width-container" class="mx-auto w-9/12 flex border-2">
+        <div class="w-[330px] h-[500px] bg-grn border-2 basis-3/6"></div>
+
+        <div class="border-2 basis-3/6">
+          <p>OAK HARBOR WEB DESIGNS</p>
+          <h2 class="text-4xl">
+            Giving Small Businesses The Big Business Treatment
+          </h2>
+          <p>
+            My name is Ryan P, I am the owner and sole developer of Oak Harbor
+            Web Designs. I got into programming after my wife had our first
+            child. I was and still am a stay-at-home dad, and I wanted a career
+            that I can do from home and still be there with the kids to watch
+            them grow up. So over the course of two years I taught myself how to
+            code websites the right way by hand and just started calling small
+            businesses to offer my help. What I found was that a lot of small
+            businesses don't have the funds to spend thousands of dollars
+            upfront on a new website. And the ones that did, got taken advantage
+            of and have a terrible website that looks like it was built by
+            someone in a dungeon and haven't seen design trends for the last 10
+            years. They were in a frustrating spot - they either can't afford a
+            good website, and if they can they don't know who to trust to make
+            something great. So I tweaked my business model to fit their needs.
+            That's how I came up with my $0 down and $150 a month model. It's
+            more managable for a small business to handle and won't hurt their
+            bank accounts.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- todo/FOOTER //////////////////////////////////////////////////////////////////////////////////// -->
+    <!-- /////////////////////////////////////////////////////////////
+      //////                     FOOTER                         /////
+    ////////////////////////////////////////////////////////////////// -->
+
+    <footer class="h-[580px] bg-beige">
+      <!-- !LINKS CONTAINER -->
+      <div class="pt-16 pb-6 flex justify-center">
+        <ul class="mx-auto">
+          <li class="md:pb-5 pb-3 text-center">Home</li>
+          <li class="md:pb-5 pb-3 text-center">About</li>
+          <li class="md:pb-5 pb-3 text-center">Services</li>
+          <li class="md:pb-5 pb-3 text-center">Portfolio</li>
+          <li class="md:pb-5 pb-3 text-center">Contact</li>
+        </ul>
+      </div>
+
+      <!-- !SOCIAL MEDIA -->
+      <div class="bg-red-200 h-1/6 flex justify-center items-center space-x-5">
+        <i
+          class="fa-brands fa-facebook-f text-2xl py-3 px-4 border-2 border-zinc-300"
+        ></i>
+        <i
+          class="fa-brands fa-instagram text-2xl py-3 px-4 border-2 border-zinc-300"
+        ></i>
+        <i
+          class="fa-brands fa-tiktok text-2xl py-3 px-4 border-2 border-zinc-300"
+        ></i>
+      </div>
+
+      <!-- !FOOTER TEXT -->
+      <p class="pt-10 pb-2 text-center text-sm">Site by Daniel Rasch</p>
+      <p class="text-center text-sm">Copyright Connected Consulting 2023</p>
+    </footer>
+
+    <!-- todo JAVASCRIPT FUNCTIONALITY////////////////////////////////////////////////////////////////////////////////// -->
+    <script>
+      function menu(e) {
+        const mobileLinks = document.querySelector("#navigation-link");
+        const classToAddWhenClicked = "fa-xmark";
+
+        mobileLinks.classList.toggle("hidden");
+
+        if (e.classList.contains("fa-bars")) {
+          e.classList.remove("fa-bars");
+          e.classList.add(classToAddWhenClicked);
+        } else {
+          e.classList.remove(classToAddWhenClicked);
+          e.classList.add("fa-bars");
+        }
+      }
+    </script>
+  </body>
+</html>
