@@ -40,7 +40,7 @@
           class="h-full md:px-0 pl-2 pr-10 basis-2/6 flex md:justify-center justify-between items-center"
         >
           <img class="w-[170px] block" src="./images/logo.png" alt="logo" />
-          <span class="md:hidden"
+          <span class="md:hidden z-50"
             ><i
               class="fa-solid fa-bars text-stone-50 text-3xl"
               onclick="menu(this)"
@@ -51,7 +51,7 @@
         <!-- ! MOBILE MENU>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> -->
         <ul
           id="navigation-link"
-          class="md:mx-6 py-6 md:pl-0 pl-6 md:flex justify-center items-center xl:space-x-16 md:space-x-10 basis-2/6 md:bg-transparent bg-white hidden"
+          class="md:mx-6 md:pt-20 pt-28 md:pl-0 pl-6 md:h-0 h-[350px] md:flex justify-center items-center xl:space-x-16 md:space-x-10 basis-2/6 md:bg-transparent bg-white hidden md:static fixed top-0 right-0 left-0 md:shadow-none shadow-sm"
         >
           <li class="md:p-0 pb-4 lg:text-base text-sm md:hidden">
             <a href="index.html">Home</a>
@@ -83,18 +83,18 @@
             rgba(255, 255, 255, 0.85),
             rgba(255, 255, 255, 0.85)
           ),
-          url(./images/contact-banner.svg);
+          url(./images/about-banner.jpg);
         background-size: cover;
-        background-position: top;
+        background-position: center;
       "
-      class="py-20 md:flex justify-center"
+      class="py-2 md:flex justify-center"
     >
       <!-- todo/BANNER ///////////////////////////////////////////////////////////////////////////////////////  -->
       <!-- /////////////////////////////////////////////////////////////
   //////                        BANNER                 /////
 ////////////////////////////////////////////////////////////////// -->
       <div
-        class="md:pt-44 pt-52 md:px-0 sm:px-10 pb-6 px-4 md:flex justify-center xl:w-9/12 md:w-11/12"
+        class="md:pt-56 pt-52 md:px-0 sm:px-10 pb-6 px-4 md:flex justify-center xl:w-9/12 md:w-11/12"
       >
         <div
           class="md:px-0 sm:px-10 md:mb-0 mb-4 xl:basis-3/6 lg:basis-5/12 flex flex-col justify-center text-center md:text-left"
@@ -119,32 +119,38 @@
         class="mx-auto xl:w-11/12 lg:w-full md:w-11/12 w-full lg:grid grid-cols-12 xl:gap-8 lg:gap-3"
       >
         <div
-          class="md:min-h-[600px] md:max-h-[600px] md:min-w-[390px] md:max-w-[390px] min-h-[400px] max-h-[400px] min-w-[290px] max-w-[290px] lg:ml-0 ml-4 justify-self-end xl:bg-grn lg:bg-beige md:bg-lightgreen bg-black xl:col-start-2 col-start-3 col-end-7"
-        ></div>
+          class="md:min-h-[500px] md:max-h-[600px] md:min-w-[390px] md:max-w-[390px] min-h-[400px] max-h-[400px] min-w-[290px] max-w-[290px] lg:ml-0 ml-4 justify-self-end xl:col-start-2 col-start-3 col-end-7"
+        >
+          <img
+            class="object-cover h-full w-full"
+            src="./images/nichole.jpg"
+            alt="Picture of business owner"
+          />
+        </div>
 
-        <div class="px-6 lg:py-0 pt-24 pb-14 col-start-7 col-end-12">
-          <p class="pb-1">OAK HARBOR WEB DESIGNS</p>
+        <div class="px-6 lg:py-0 md:mt-8 pt-24 pb-14 col-start-7 col-end-12">
+          <p class="pb-2 text-sm">CONNECTED CONSULTING WEB SOLUTIONS</p>
           <h2 class="pb-6 text-4xl font-bold">
             Giving Small Businesses The Big Business Treatment
           </h2>
           <p class="text-base">
-            My name is Ryan P, I am the owner and sole developer of Oak Harbor
-            Web Designs. I got into programming after my wife had our first
-            child. I was and still am a stay-at-home dad, and I wanted a career
-            that I can do from home and still be there with the kids to watch
-            them grow up. So over the course of two years I taught myself how to
-            code websites the right way by hand and just started calling small
-            businesses to offer my help. <br /><br />
-            What I found was that a lot of small businesses don't have the funds
-            to spend thousands of dollars` upfront on a new website. And the
-            ones that did, got taken advantage of and have a terrible website
-            that looks like it was built by someone in a dungeon and haven't
-            seen design trends for the last 10 years. They were in a frustrating
-            spot - they either can't afford a good website, and if they can they
-            don't know who to trust to make something great. So I tweaked my
-            business model to fit their needs. That's how I came up with my $0
-            down and $150 a month model. It's more managable for a small
-            business to handle and won't hurt their bank accounts.
+            At Connected Consulting, we are dedicated to helping small
+            businesses achieve their goals through exceptional marketing and web
+            development services. Founded by Nichole Francis, our business is
+            committed to staying true to small businesses and their values. We
+            believe in empowering our clients to succeed and provide tailored
+            web development services to meet their specific needs. Collaboration
+            and communication are key to our success, and we work closely with
+            our clients to ensure their goals are met. <br /><br />
+            Our subscription-based service offers affordable monthly rates for
+            exceptional marketing and web development support. Our team stays
+            up-to-date with the latest trends and technology in the web
+            development industry to provide the best service possible. We offer
+            an easy, hassle-free solution to take the workload off your
+            shoulders, providing access to our expert team of professionals. Let
+            us be your trusted partner in building the business you've always
+            dreamed of. Contact us today to learn more about how we can help you
+            achieve your web development goals.
           </p>
         </div>
       </div>
@@ -155,15 +161,25 @@
       //////                     FOOTER                         /////
     ////////////////////////////////////////////////////////////////// -->
 
-    <footer class="h-[580px] bg-beige">
+    <footer class="h-[550px] bg-beige">
       <!-- !LINKS CONTAINER -->
       <div class="pt-16 pb-6 flex justify-center">
         <ul class="mx-auto">
-          <li class="md:pb-5 pb-3 text-center">Home</li>
-          <li class="md:pb-5 pb-3 text-center">About</li>
-          <li class="md:pb-5 pb-3 text-center">Services</li>
-          <li class="md:pb-5 pb-3 text-center">Portfolio</li>
-          <li class="md:pb-5 pb-3 text-center">Contact</li>
+          <a href="index.html"
+            ><li class="md:pb-5 pb-3 text-center">Home</li></a
+          >
+          <a href="about.html"
+            ><li class="md:pb-5 pb-3 text-center">About</li></a
+          >
+          <a href="services.html"
+            ><li class="md:pb-5 pb-3 text-center">Services</li></a
+          >
+          <a href="#portfolio"
+            ><li class="md:pb-5 pb-3 text-center">Portfolio</li></a
+          >
+          <a href="contact.html"
+            ><li class="md:pb-5 pb-3 text-center">Contact</li></a
+          >
         </ul>
       </div>
 
